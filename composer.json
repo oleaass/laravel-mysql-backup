@@ -1,0 +1,23 @@
+{
+    "name": "oleaass/laravel-mysql-backup",
+    "description": "Laravel artisan command to make a backup of the database",
+    "type": "larave-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ole Aass",
+            "email": "aass.ole@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "OleAass\\MySQLBackup\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": "OleAass\\MySQLBackup\\MySQLBackupServiceProvider"
+        }
+    }
+}
